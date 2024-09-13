@@ -1,0 +1,74 @@
+.contact_main {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: url('https://media.giphy.com/media/7LlTPKOMCov3lLFW2B/giphy.gif') no-repeat center center;
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+.contact_in {
+    width: 100%;
+    max-width: 450px;
+    background: rgba(0, 0, 0, 0.8); 
+    border-radius: 20px; 
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); 
+    position: relative;
+    z-index: 1;
+}
+
+.contact_img {
+    height: 220px; 
+    background: url(https://images3.alphacoders.com/749/749947.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.contact_info {
+    padding: 25px; 
+    color: #fff;
+    background: rgba(0, 0, 0, 0.9); 
+}
+
+.contact_info h2 {
+    margin-top: 0;
+    font-size: 1.6rem; 
+    color: #f7b7a3; 
+    border-bottom: 2px solid #f7b7a3; 
+    padding-bottom: 10px;
+}
+
+.contact_info p {
+    margin: 15px 0;
+    font-size: 1.1rem; 
+}
+
+.contact_info strong {
+    color: #f7b7a3; 
+}
+
+.social_links {
+    margin-top: 25px; 
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+}
+
+.social_links a {
+    color: #fff;
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.social_links a:hover {
+    color: #f7b7a3; 
+    transform: translateY(-5px); 
+    filter: drop-shadow(0 0 10px #f7b7a3); 
+}

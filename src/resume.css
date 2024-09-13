@@ -1,0 +1,183 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+    color: #f4f4f4;
+}
+
+
+.resume_main {
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    
+    max-width: 1000px;
+    margin: 40px auto;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+}
+
+.resume_inside_main {
+    padding: 30px;
+    background:black;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.resume_header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.resume_header h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.resume_header .tagline {
+    font-size: 1.8rem;
+    color:red;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.resume_header p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin: 5px 0;
+}
+
+.resume_header a {
+    color:red;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.resume_header a:hover {
+    text-decoration: underline;
+}
+
+.resume_summary, .skills, .certifications, .projects, .education, .languages {
+    margin-bottom: 50px;
+}
+
+.resume_summary h2, .skills h2, .certifications h2, .projects h2, .education h2, .languages h2 {
+    font-size: 2.4rem;
+    color: red;
+    border-bottom: 3px solid red;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.project_item, .education_item {
+    background: #333;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-left: 5px solid red;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project_item:hover, .education_item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+}
+
+.project_item h3, .education_item h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.project_item p, .education_item p {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin: 5px 0;
+}
+
+.skills ul, .languages ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills li, .languages li {
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 12px 24px;
+    margin: 8px;
+    background: #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    font-weight: 500;
+}
+
+.skills li::before, .languages li::before {
+    content: '•';
+    color:red;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.skills li:hover, .languages li:hover {
+    background:red;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .resume_main {
+        padding: 20px;
+    }
+}
+.download_section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .download_button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    color: #fff;
+    background:red;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+    
+  }
+  
+  .download_button:hover {
+    background: #e03c31;
+    transform: scale(1.05);
+    text-decoration: none;
+    background: linear-gradient(108.4deg, rgb(253, 44, 56) 3.3%, rgb(176, 2, 12) 98.4%);
+    color: #ddd;
+  }
+  
